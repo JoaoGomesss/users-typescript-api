@@ -1,4 +1,3 @@
-import { connect } from "http2";
 import { MongoClient as Mongo, Db } from "mongodb";
 
 export const MongoClient = {
