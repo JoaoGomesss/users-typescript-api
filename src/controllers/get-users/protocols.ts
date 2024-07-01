@@ -9,4 +9,4 @@ export interface IGetUsersRepository {
   getUsers(): Promise<User[]>;
 }
 
-export interface
+
