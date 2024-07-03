@@ -1,6 +1,6 @@
-import { IGetUsersContoller, IGetUsersRepository } from "./protocols";
-
-export class GetUsersContoller implements IGetUsersContoller {
+import { IController } from "../protocols";
+import { IGetUsersRepository } from "./protocols";
+export class GetUsersContoller implements IController {
   constructor(private readonly getUsersRepository: IGetUsersRepository) {}
 
   async handle() {
